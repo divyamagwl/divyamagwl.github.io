@@ -1,0 +1,24 @@
+body{ 
+    margin:0px; 
+    padding:0px;
+    background-color: LightCyan;  
+}  
+
+header{ 
+    background-color:#3333CC; 
+    padding:15px;
+
+}
+
+a:link {
+  color: Brown;
+}
+a:visited {
+  color: White;
+}
+a:hover {
+  color: DeepPink;
+}
+a:active {
+  color:Blue
+}
