@@ -5,20 +5,22 @@ body{
 }  
 
 header{ 
-    background-color:#3333CC; 
+    background-color: LightGrey; 
     padding:15px;
 
 }
 
 a:link {
-  color: Brown;
+  color:Black ;
 }
 a:visited {
-  color: White;
+  color:DodgerBlue;
 }
 a:hover {
-  color: DeepPink;
+  color:Gold;
 }
 a:active {
-  color:Blue
+  color:Lavender
 }
+
+#3333CC
