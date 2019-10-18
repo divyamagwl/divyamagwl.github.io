@@ -6,9 +6,10 @@ body{
 }  
 
 header{ 
-    background-color: LightGrey; 
+    background-image: url("images/bg2.jpg"); 
     padding:15px;
     text-align:right;
+    background-size: 20% 20%;
 }
 
 main{
@@ -54,11 +55,11 @@ a:active {
 }
 
 .Background{
-	background-image: url("images/time2.jpg");
+    background-image: url("images/time.jpg");
     padding:0.2px;
     margin:0px;
     opacity:0.9;
-	background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
 .TextBox{
@@ -69,7 +70,7 @@ a:active {
 }
 
 img.Hoveringimage:hover{
-	opacity:0.7;
+	opacity:0.6;
 }
 
 img.centre{
