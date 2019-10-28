@@ -1,2 +1,2 @@
 # My Website
-I am learning HTML and CSS . So as to start with something I have made my own very basic website describing me.
+I am in the process of learning HTML and CSS . As a first step to greater things,I have made my own very basic website about myself. Check it out!
