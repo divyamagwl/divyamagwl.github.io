@@ -856,3 +856,16 @@ input[type="password"], textarea {
     margin-right: auto;
     text-align: center;
 }
+
+.custom-margin-top {
+    margin-top: 2.5rem;
+}
+
+.custom-margin-bottom {
+    margin-bottom: 1.5rem;
+}
+
+.hack-winner {
+    color:#AF2B2B; 
+    margin: 0px
+}
