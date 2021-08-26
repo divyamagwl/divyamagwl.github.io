@@ -889,13 +889,12 @@ input[type="password"], textarea {
     font-weight: 600;
     transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
     transition-duration: 200ms;
-    height: 2.5rem;
+    height: 3.5rem;
     min-width: 2.5rem;
     font-size: 16px;
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
     background: rgba(255, 255, 255, 0.08);
-    padding: 0px;
   }
   .css-1h84u6v {
       display: -webkit-inline-box;
@@ -929,22 +928,21 @@ input[type="password"], textarea {
       font-weight: 600;
       transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
       transition-duration: 200ms;
-      height: 2.5rem;
+      height: 3.5rem;
       min-width: 2.5rem;
       font-size: 16px;
       padding-inline-start: 1rem;
       padding-inline-end: 1rem;
       background: #E2E8F0;
-      padding: 0px;
   }
   .chakra-button{
-    margin-left: 2rem;
     color:inherit;
     cursor: pointer;
     text-transform: none;
     overflow: visible;
     font-family: inherit;
     border:none;
+    margin-bottom: 0px;
   }
   
   .css-onkibi {
