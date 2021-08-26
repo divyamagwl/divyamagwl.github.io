@@ -114,7 +114,7 @@ a img {
     border-color: initial;
 }
 .hack-winner {
-    color: rgb(215, 92, 92);
+    color: #AF2B2B;
 }
 .slick-slider {
     -webkit-tap-highlight-color: transparent;
@@ -310,9 +310,10 @@ body {
     background-image: initial;
     background-color: rgb(7, 7, 8);
     color: rgb(172, 165, 154);
+    height: 0px;
 }
 a {
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 a:hover,
 a:focus,
@@ -392,10 +393,10 @@ ul.disc li {
 }
 ul.disc li::before {
     background-image: initial;
-    background-color: rgb(107, 26, 26);
+    background-color: #862121;
 }
 dt {
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 th,
 td {
@@ -406,14 +407,14 @@ th {
 }
 .pace .pace-progress {
     background-image: initial;
-    background-color: rgb(107, 26, 26);
+    background-color: #862121;
 }
 #preloader {
     background-image: initial;
     background-color: rgb(12, 14, 17);
 }
 #loader {
-    background-color: rgb(107, 26, 26); 
+    background-color: #862121; 
 }
 fieldset {
     border-color: initial; 
@@ -479,7 +480,7 @@ select:-webkit-autofill:focus {
 }
 .btn.btn--primary:hover, button.btn--primary:hover, input[type="submit"].btn--primary:hover, input[type="reset"].btn--primary:hover, input[type="button"].btn--primary:hover, .btn.btn--primary:focus, button.btn--primary:focus, input[type="submit"].btn--primary:focus, input[type="reset"].btn--primary:focus, input[type="button"].btn--primary:focus {
     background-image: initial;
-    background-color: rgb(107, 26, 26);
+    background-color: #862121;
     border-color: rgb(164, 40, 40);
 }
 .btn--stroke,
@@ -492,7 +493,7 @@ button.btn--stroke {
 .btn--stroke:hover,
 button.btn--stroke:hover {
     border-color: rgb(164, 40, 40);
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 .alert-box--error {
     background-color: rgb(79, 0, 2);
@@ -530,7 +531,7 @@ button.btn--stroke:hover {
     color: rgb(219, 216, 211);
 }
 .stats-tabs li a:hover {
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 .stats-tabs li a em {
     color: rgb(164, 156, 144);
@@ -562,7 +563,7 @@ button.btn--stroke:hover {
     border-top-color: rgb(140, 130, 115);
 }
 .section-intro h3 {
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 .section-intro.has-bottom-sep::after {
     background-color: rgba(0, 0, 0, 0.1);
@@ -577,10 +578,10 @@ button.btn--stroke:hover {
     background-color: rgba(0, 0, 0, 0.15);
 }
 .blog-list .blog-date {
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 .blog-list .blog-date a {
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 .blog-list .blog-date a:hover,
 .blog-list .blog-date a:focus,
@@ -596,7 +597,7 @@ button.btn--stroke:hover {
 .blog-list .blog-cat a:hover,
 .blog-list .blog-cat a:focus,
 .blog-list .blog-cat a:active {
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 .s-header {
     background-color: transparent;
@@ -638,7 +639,7 @@ button.btn--stroke:hover {
     color: rgb(232, 230, 227);
 }
 .header-nav li.current a {
-    color: rgb(215, 92, 92);
+    color: #AF2B2B;
 }
 @media only screen and (max-width: 800px) {
     .header-nav-wrap {
@@ -667,10 +668,10 @@ button.btn--stroke:hover {
     background-color: rgb(10, 8, 9);
 }
 .home-content h3 {
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 .home-content h3::before {
-    background-color: rgb(107, 26, 26);
+    background-color: #862121;
 }
 .home-content h1 {
     color: rgb(232, 230, 227);
@@ -702,7 +703,7 @@ button.btn--stroke:hover {
     color: rgb(232, 230, 227);
 }
 .home-social span {
-    color: rgb(215, 92, 92);
+    color: #AF2B2B;
 }
 .s-about {
     background-color: rgb(24, 26, 27);
@@ -854,7 +855,7 @@ button.btn--stroke:hover {
     color: rgb(232, 230, 227);
 }
 .stats__col--highlight .stats__count::after {
-    background-color: rgb(107, 26, 26);
+    background-color: #862121;
 }
 .stats__col--highlight h4 {
     color: rgba(232, 230, 227, 0.4);
@@ -879,7 +880,7 @@ button.btn--stroke:hover {
 .s-contact .form-field label {
     color: rgb(232, 230, 227);
     background-image: initial;
-    background-color: rgb(107, 26, 26);
+    background-color: #862121;
 }
 .s-contact .form-field label::after {
     border-top-color: transparent;
@@ -901,7 +902,7 @@ button.btn--stroke:hover {
     border-bottom-color: rgb(48, 52, 54);
 }
 .contact__form button {
-    background-color: rgb(107, 26, 26);
+    background-color: #862121;
     border-color: rgb(164, 40, 40);
 }
 .message-warning,
@@ -926,7 +927,7 @@ footer {
 }
 footer a,
 footer a:visited {
-    color: rgb(222, 120, 120);
+    color: #862121;
 }
 footer a:hover,
 footer a:focus {
