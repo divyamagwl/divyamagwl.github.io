@@ -869,3 +869,92 @@ input[type="password"], textarea {
     color:#AF2B2B; 
     margin: 0px
 }
+
+.css-xpotm3 {
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: auto;
+    line-height: 1.2;
+    border-radius: 10px;
+    font-weight: 600;
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+    transition-duration: 200ms;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    font-size: 16px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 0px;
+  }
+  .css-1h84u6v {
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      position: relative;
+      white-space: nowrap;
+      vertical-align: middle;
+      outline: 2px solid transparent;
+      outline-offset: 2px;
+      width: auto;
+      line-height: 1.2;
+      border-radius: 10px;
+      font-weight: 600;
+      transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+      transition-duration: 200ms;
+      height: 2.5rem;
+      min-width: 2.5rem;
+      font-size: 16px;
+      padding-inline-start: 1rem;
+      padding-inline-end: 1rem;
+      background: #E2E8F0;
+      padding: 0px;
+  }
+  .chakra-button{
+    margin-left: 2rem;
+    color:inherit;
+    cursor: pointer;
+    text-transform: none;
+    overflow: visible;
+    font-family: inherit;
+    border:none;
+  }
+  
+  .css-onkibi {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    line-height: 1em;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: currentColor;
+    vertical-align: middle;
+  }

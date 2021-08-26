@@ -1,0 +1,1093 @@
+/*
+                        _______
+                       /       \
+                      .==.    .==.
+                     ((  ))==((  ))
+                    / "=="    "=="\
+                   /____|| || ||___\
+       ________     ____    ________  ___    ___
+       |  ___  \   /    \   |  ___  \ |  |  /  /
+       |  |  \  \ /  /\  \  |  |  \  \|  |_/  /
+       |  |   )  /  /__\  \ |  |__/  /|  ___  \
+       |  |__/  /  ______  \|  ____  \|  |  \  \
+_______|_______/__/ ____ \__\__|___\__\__|___\__\____
+|  ___  \ |  ____/ /    \   |  ___  \ |  ____|  ___  \
+|  |  \  \|  |___ /  /\  \  |  |  \  \|  |___|  |  \  \
+|  |__/  /|  ____/  /__\  \ |  |   )  |  ____|  |__/  /
+|  ____  \|  |__/  ______  \|  |__/  /|  |___|  ____  \
+|__|   \__\____/__/      \__\_______/ |______|__|   \__\
+                https://darkreader.org
+*/
+/* User-Agent Style */
+html {
+    background-color: #181a1b !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #555b00 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator, embed[type="application/pdf"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}
+
+/* Modified CSS */
+a {
+    background-color: transparent;
+}
+abbr[title] {
+    border-bottom-color: initial;
+    text-decoration-color: initial;
+}
+mark {
+    background-color: rgb(204, 204, 0);
+    color: rgb(232, 230, 227);
+}
+fieldset {
+    border-color: rgb(66, 71, 74);
+}
+legend {
+    color: inherit;
+}
+ol,
+ul {
+    list-style-image: initial;
+}
+a {
+    text-decoration-color: initial;
+}
+a img {
+    border-color: initial;
+}
+.no-border {
+    border-color: initial;
+}
+.hack-winner {
+    color: rgb(215, 92, 92);
+}
+.slick-slider {
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-list:focus {
+    outline-color: initial;
+}
+.slick-vertical .slick-slide {
+    border-color: transparent;
+}
+.pswp {
+    outline-color: initial;
+}
+.pswp__bg {
+    background-image: initial;
+    background-color: rgb(0, 0, 0);
+}
+.pswp__container,
+.pswp__img {
+    -webkit-tap-highlight-color: transparent;
+}
+.pswp__img--placeholder--blank {
+    background-image: initial;
+    background-color: rgb(26, 28, 29);
+}
+.pswp__error-msg {
+    color: rgb(200, 195, 188);
+}
+.pswp__error-msg a {
+    color: rgb(200, 195, 188);
+    text-decoration-color: initial;
+}
+.pswp__button {
+    background-image: none;
+    background-color: initial;
+    border-color: initial;
+    box-shadow: none;
+}
+.pswp__button:focus,
+.pswp__button:hover {
+    background-color: transparent;
+}
+.pswp__button:active {
+    outline-color: initial;
+}
+.pswp__button,
+.pswp__button--arrow--left::before,
+.pswp__button--arrow--right::before {
+    background-image: url("https://divyamagwl.github.io/images/photoswipe/default-skin.png");
+    background-color: initial;
+}
+.pswp__button--arrow--left,
+.pswp__button--arrow--right {
+    background-image: none;
+    background-color: initial;
+}
+.pswp__button--arrow--left::before,
+.pswp__button--arrow--right::before {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.pswp__share-modal {
+    background-image: initial;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.pswp__share-tooltip {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px;
+}
+.pswp__share-tooltip a {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+}
+.pswp__share-tooltip a:hover {
+    text-decoration-color: initial;
+    color: rgb(232, 230, 227);
+}
+a.pswp__share--facebook::before {
+    border-color: transparent transparent rgb(48, 52, 54);
+}
+a.pswp__share--facebook:hover {
+    background-image: initial;
+    background-color: rgb(50, 74, 123);
+    color: rgb(232, 230, 227);
+}
+a.pswp__share--facebook:hover::before {
+    border-bottom-color: rgb(55, 81, 136);
+}
+a.pswp__share--twitter:hover {
+    background-image: initial;
+    background-color: rgb(15, 91, 148);
+    color: rgb(232, 230, 227);
+}
+a.pswp__share--pinterest:hover {
+    background-image: initial;
+    background-color: rgb(53, 57, 59);
+    color: rgb(220, 68, 73);
+}
+a.pswp__share--download:hover {
+    background-image: initial;
+    background-color: rgb(43, 47, 49);
+}
+.pswp__counter {
+    color: rgb(232, 230, 227);
+}
+.pswp__caption h4 {
+    color: rgb(232, 230, 227);
+}
+.pswp__caption small {
+    color: rgba(232, 230, 227, 0.5);
+}
+.pswp__caption__center {
+    color: rgba(232, 230, 227, 0.5);
+}
+.pswp__preloader--active .pswp__preloader__icn {
+    background-image: url("https://divyamagwl.github.io/css/..images/photoswipe/preloader.gif");
+    background-color: initial;
+}
+.pswp--css_animation .pswp__preloader__icn {
+    background-image: none;
+    background-color: initial;
+}
+.pswp--css_animation .pswp__preloader__donut {
+    border-color: rgb(48, 52, 54) rgb(48, 52, 54) transparent transparent;
+    background-image: none;
+    background-color: initial;
+}
+.pswp__top-bar,
+.pswp__caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.pswp__ui--fit .pswp__top-bar,
+.pswp__ui--fit .pswp__caption {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.pswp--minimal--dark .pswp__top-bar {
+    background-image: none;
+    background-color: initial;
+}
+.prettyprint {
+    background-image: initial;
+    background-color: rgb(32, 35, 36);
+    border-color: initial;
+}
+.pln {
+    color: rgb(200, 195, 188);
+}
+@media screen {
+    .str {
+        color: rgb(239, 53, 100);
+    }
+    .kwd {
+        color: rgb(200, 195, 188);
+    }
+    .com {
+        color: rgb(162, 154, 142);
+    }
+    .typ {
+        color: rgb(139, 166, 197);
+    }
+    .lit {
+        color: rgb(139, 166, 197);
+    }
+    .pun {
+        color: rgb(200, 195, 188);
+    }
+    .opn {
+        color: rgb(200, 195, 188);
+    }
+    .clo {
+        color: rgb(200, 195, 188);
+    }
+    .tag {
+        color: rgb(127, 174, 255);
+    }
+    .atn {
+        color: rgb(114, 255, 255);
+    }
+    .atv {
+        color: rgb(239, 53, 100);
+    }
+    .dec {
+        color: rgb(200, 195, 188);
+    }
+    .var {
+        color: rgb(114, 255, 255);
+    }
+    .fun {
+        color: rgb(255, 97, 97);
+    }
+}
+body {
+    background-image: initial;
+    background-color: rgb(7, 7, 8);
+    color: rgb(172, 165, 154);
+}
+a {
+    color: rgb(222, 120, 120);
+}
+a:hover,
+a:focus,
+a:active {
+    color: rgb(204, 200, 193);
+}
+a:focus {
+    outline-color: initial;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h01,
+.h02,
+.h03,
+.h04,
+.h05,
+.h06 {
+    color: rgb(225, 222, 218);
+}
+p.lead {
+    color: rgb(225, 222, 218);
+}
+blockquote::before {
+    color: rgba(232, 230, 227, 0.15);
+}
+blockquote p {
+    color: rgb(225, 222, 218);
+}
+blockquote cite a,
+blockquote cite a:visited {
+    color: rgb(164, 156, 144);
+    border-color: initial;
+}
+abbr {
+    color: rgb(164, 156, 144);
+}
+pre {
+    background-image: initial;
+    background-color: rgb(32, 35, 36);
+}
+code {
+    background-image: initial;
+    background-color: rgb(32, 35, 36);
+    border-color: rgb(56, 61, 64);
+}
+pre.prettyprint > code {
+    border-color: initial;
+}
+del {
+    text-decoration-color: initial;
+}
+abbr[title],
+dfn[title] {
+    border-bottom-color: initial;
+    text-decoration-color: initial;
+}
+mark {
+    background-image: initial;
+    background-color: rgb(204, 174, 0);
+    color: rgb(232, 230, 227);
+}
+hr {
+    border-color: rgba(140, 130, 115, 0.1);
+}
+ol {
+    list-style-image: initial;
+}
+ul {
+    list-style-image: initial;
+}
+ul.disc li {
+    list-style-image: initial;
+}
+ul.disc li::before {
+    background-image: initial;
+    background-color: rgb(107, 26, 26);
+}
+dt {
+    color: rgb(222, 120, 120);
+}
+th,
+td {
+    border-bottom-color: rgb(54, 59, 61);
+}
+th {
+    color: rgb(225, 222, 218);
+}
+.pace .pace-progress {
+    background-image: initial;
+    background-color: rgb(107, 26, 26);
+}
+#preloader {
+    background-image: initial;
+    background-color: rgb(12, 14, 17);
+}
+#loader {
+    background-color: rgb(107, 26, 26); 
+}
+fieldset {
+    border-color: initial; 
+}
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"],
+textarea,
+select {
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    outline-color: initial;
+    color: rgb(200, 195, 188);
+    background-image: initial;
+    background-color: transparent;
+    border-bottom-color: rgba(140, 130, 115, 0.15);
+}
+.ss-custom-select::after {
+    border-bottom-color: rgba(140, 130, 115, 0.5);
+    border-right-color: rgba(140, 130, 115, 0.5); 
+}
+input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    color: rgb(232, 230, 227);
+    border-bottom-color: rgb(140, 130, 115);
+}
+label,
+legend {
+    color: rgb(225, 222, 218);
+}
+::-webkit-input-placeholder {
+    color: rgb(164, 156, 144);
+}
+.placeholder {
+    color: rgb(164, 156, 144) !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: rgb(211, 79, 79); 
+}
+.btn, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    color: rgb(219, 216, 211);
+    text-decoration-color: initial;
+    background-color: rgb(57, 61, 64);
+    border-color: rgb(64, 70, 72); 
+}
+.btn:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .btn:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+    background-color: rgb(64, 69, 72);
+    border-color: rgb(68, 74, 77);
+    color: rgb(232, 230, 227); outline-color: initial; 
+}
+.btn.btn--primary, button.btn--primary, input[type="submit"].btn--primary, input[type="reset"].btn--primary, input[type="button"].btn--primary {
+    background-image: initial;
+    background-color: rgb(10, 8, 9);
+    border-color: rgb(136, 126, 112);
+    color: rgb(232, 230, 227); 
+}
+.btn.btn--primary:hover, button.btn--primary:hover, input[type="submit"].btn--primary:hover, input[type="reset"].btn--primary:hover, input[type="button"].btn--primary:hover, .btn.btn--primary:focus, button.btn--primary:focus, input[type="submit"].btn--primary:focus, input[type="reset"].btn--primary:focus, input[type="button"].btn--primary:focus {
+    background-image: initial;
+    background-color: rgb(107, 26, 26);
+    border-color: rgb(164, 40, 40);
+}
+.btn--stroke,
+button.btn--stroke {
+    border-color: rgb(140, 130, 115);
+    color: rgb(232, 230, 227);
+    background-image: initial !important;
+    background-color: transparent !important;
+}
+.btn--stroke:hover,
+button.btn--stroke:hover {
+    border-color: rgb(164, 40, 40);
+    color: rgb(222, 120, 120);
+}
+.alert-box--error {
+    background-color: rgb(79, 0, 2);
+    color: rgb(231, 89, 91);
+}
+.alert-box--success {
+    background-color: rgb(105, 126, 23);
+    color: rgb(181, 203, 120);
+}
+.alert-box--info {
+    background-color: rgb(36, 39, 41);
+    color: rgb(89, 158, 208);
+}
+.alert-box--notice {
+    background-color: rgb(112, 96, 0);
+    color: rgb(230, 207, 80);
+}
+.drop-cap::first-letter {
+    background-image: initial;
+    background-color: transparent;
+    color: rgb(232, 230, 227);
+}
+.pull-quote::before,
+.pull-quote::after {
+    color: rgba(232, 230, 227, 0.15);
+}
+.stats-tabs li {
+    border-right-color: rgba(136, 126, 112, 0.15);
+}
+.stats-tabs li:last-child {
+    border-color: initial;
+}
+.stats-tabs li a {
+    border-color: initial;
+    color: rgb(219, 216, 211);
+}
+.stats-tabs li a:hover {
+    color: rgb(222, 120, 120);
+}
+.stats-tabs li a em {
+    color: rgb(164, 156, 144);
+}
+.skill-bars {
+    list-style-image: initial;
+}
+.skill-bars li {
+    background-image: initial;
+    background-color: rgb(54, 59, 61);
+}
+.skill-bars li strong {
+    color: rgb(225, 222, 218);
+}
+.skill-bars li .progress {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right,
+    rgb(20, 21, 50),
+    rgb(36, 56, 35));
+}
+.skill-bars li .progress span {
+    color: rgb(232, 230, 227);
+    background-image: initial;
+    background-color: rgb(0, 0, 0);
+}
+.skill-bars li .progress span::after {
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: rgb(140, 130, 115);
+}
+.section-intro h3 {
+    color: rgb(222, 120, 120);
+}
+.section-intro.has-bottom-sep::after {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.blog-list h2 {
+    color: rgb(225, 222, 218);
+}
+.blog-list h2 a {
+    color: rgb(225, 222, 218);
+}
+.blog-list h2::after {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.blog-list .blog-date {
+    color: rgb(222, 120, 120);
+}
+.blog-list .blog-date a {
+    color: rgb(222, 120, 120);
+}
+.blog-list .blog-date a:hover,
+.blog-list .blog-date a:focus,
+.blog-list .blog-date a:active {
+    color: rgb(232, 230, 227);
+}
+.blog-list .blog-cat {
+    color: rgb(232, 230, 227);
+}
+.blog-list .blog-cat a {
+    color: rgb(232, 230, 227);
+}
+.blog-list .blog-cat a:hover,
+.blog-list .blog-cat a:focus,
+.blog-list .blog-cat a:active {
+    color: rgb(222, 120, 120);
+}
+.s-header {
+    background-color: transparent;
+}
+.s-header.sticky {
+    background-color: rgb(0, 0, 0) !important;
+}
+.header-logo a {
+    outline-color: initial;
+    border-color: initial;
+}
+.header-menu-toggle {
+    color: rgba(232, 230, 227, 0.5);
+}
+.header-menu-toggle:hover,
+.header-menu-toggle:focus {
+    color: rgb(232, 230, 227);
+}
+.header-menu-toggle span {
+    background-color: rgb(24, 26, 27);
+    text-shadow: none;
+    color: transparent;
+}
+.header-menu-toggle span::before,
+.header-menu-toggle span::after {
+    background-color: inherit;
+}
+.header-menu-toggle.is-clicked span {
+    background-color: rgba(24, 26, 27, 0);
+}
+.header-menu-toggle.is-clicked span::before,
+.header-menu-toggle.is-clicked span::after {
+    background-color: rgb(24, 26, 27);
+}
+.header-nav {
+    list-style-image: initial;
+}
+.header-nav li a {
+    color: rgb(232, 230, 227);
+}
+.header-nav li.current a {
+    color: rgb(215, 92, 92);
+}
+@media only screen and (max-width: 800px) {
+    .header-nav-wrap {
+        background-color: rgb(0, 0, 0);
+    }
+    .header-nav-wrap .header-nav {
+        border-top-color: rgba(48, 52, 54, 0.07);
+    }
+    .header-nav-wrap .header-nav li {
+        border-bottom-color: rgba(48, 52, 54, 0.07);
+    }
+}
+.s-home {
+    background-color: transparent;
+}
+.s-home .shadow-overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8) 100%);
+    background-color: initial;
+}
+.s-home .overlay {
+    background-color: rgb(13, 14, 14);
+}
+.no-js .s-home {
+    background-image: initial;
+    background-color: rgb(10, 8, 9);
+}
+.home-content h3 {
+    color: rgb(222, 120, 120);
+}
+.home-content h3::before {
+    background-color: rgb(107, 26, 26);
+}
+.home-content h1 {
+    color: rgb(232, 230, 227);
+}
+.home-content__buttons .btn {
+    border-color: rgb(48, 52, 54);
+    color: rgb(232, 230, 227);
+}
+.home-content__buttons .btn:hover,
+.home-content__buttons .btn:focus {
+    color: rgb(232, 230, 227);
+    background-image: initial !important;
+    background-color: rgb(24, 26, 27) !important;
+}
+.home-content__scroll a {
+    color: rgb(232, 230, 227);
+}
+.home-content__scroll a::after {
+    border-bottom-color: rgb(161, 40, 40);
+    border-right-color: rgb(161, 40, 40);
+}
+.home-social {
+    list-style-image: initial;
+}
+.home-social::after {
+    background-color: rgba(24, 26, 27, 0.08);
+}
+.home-social a {
+    color: rgb(232, 230, 227);
+}
+.home-social span {
+    color: rgb(215, 92, 92);
+}
+.s-about {
+    background-color: rgb(24, 26, 27);
+}
+.timeline::before {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.timeline__bullet {
+    background-image: initial;
+    background-color: rgb(10, 8, 9);
+    box-shadow: rgb(36, 39, 41) 0px 0px 0px 9px;
+}
+.timeline__header .timeline__timeframe {
+    color: rgba(232, 230, 227, 0.5);
+}
+.s-works {
+    background-color: rgb(32, 35, 36);
+}
+.item-folio__thumb .shadow-overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8) 100%);
+    background-color: initial;
+}
+.item-folio__thumb a::before {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.item-folio__thumb a::after {
+    color: rgb(232, 230, 227);
+}
+.item-folio__title {
+    color: rgb(232, 230, 227);
+}
+.item-folio__cat {
+    color: rgba(232, 230, 227, 0.5);
+}
+.item-folio__project-link {
+    color: rgb(232, 230, 227);
+    box-shadow: rgb(24, 26, 27) 0px 0px 0px 1px;
+}
+.item-folio__project-link::before {
+    background-color: rgba(24, 26, 27, 0.1);
+}
+.item-folio__project-link:hover,
+.item-folio__project-link:focus,
+.item-folio__project-link:active {
+    background-color: rgb(24, 26, 27);
+    color: rgb(232, 230, 227);
+}
+.s-testimonials {
+    background-color: rgb(10, 8, 9);
+    background-image: url("https://divyamagwl.github.io/images/testimonial-bg.jpg");
+    color: rgba(232, 230, 227, 0.5);
+}
+.s-testimonials .overlay {
+    background-color: rgb(10, 8, 9);
+}
+.testimonials-header h1 {
+    color: rgb(232, 230, 227);
+}
+.testimonials {
+    border-top-color: rgba(48, 52, 54, 0.1);
+}
+.testimonials__slider .slick-slide {
+    outline-color: initial;
+}
+.testimonials__slider .slick-arrow {
+    color: rgb(232, 230, 227);
+    background-color: rgba(24, 26, 27, 0.15);
+    border-color: initial;
+    box-shadow: rgba(24, 26, 27, 0) 0px 0px 0px 5px;
+}
+.testimonials__slider .slick-arrow:hover,
+.testimonials__slider .slick-arrow:focus {
+    color: rgb(232, 230, 227);
+    box-shadow: rgb(24, 26, 27) 0px 0px 0px 5px;
+    background-color: transparent;
+}
+.testimonials__slider .slick-dots {
+    list-style-image: initial;
+}
+.testimonials__slider .slick-dots li button {
+    background-image: initial;
+    background-color: rgb(84, 91, 94);
+    border-color: initial;
+    text-shadow: none;
+    color: transparent;
+}
+.testimonials__slider .slick-dots li button:hover,
+.testimonials__slider .slick-dots li button:focus {
+    outline-color: initial;
+}
+.testimonials__slider .slick-dots li.slick-active button,
+.testimonials__slider .slick-dots li:hover button {
+    background-image: initial;
+    background-color: rgb(44, 69, 43);
+}
+.testimonials__slide::before {
+    background-color: rgba(24, 26, 27, 0.1);
+}
+.testimonials__avatar {
+    box-shadow: rgba(24, 26, 27, 0.1) 0px 0px 0px 0.9rem;
+    outline-color: initial;
+}
+.testimonials__author {
+    color: rgb(232, 230, 227);
+}
+.testimonials__author span {
+    color: rgba(172, 165, 154, 0.7);
+}
+.s-blog {
+    background-color: rgb(24, 26, 27);
+}
+.s-cta {
+    background-color: rgb(24, 26, 27);
+}
+.cta__content {
+    border-top-color: rgba(140, 130, 115, 0.1);
+}
+.cta__content h2 a {
+    color: rgb(225, 222, 218);
+}
+.cta__content span {
+    color: rgb(204, 200, 193);
+}
+.s-stats {
+    background-color: rgb(32, 35, 36);
+}
+.stats__upsign i {
+    color: rgb(106, 255, 153);
+}
+.stats__count {
+    color: rgb(225, 222, 218);
+}
+.stats__count::after {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.stats h4 {
+    color: rgba(232, 230, 227, 0.4);
+}
+.stats__col--highlight {
+    background-image: url("https://divyamagwl.github.io/images/count-bg.jpg");
+    background-color: rgb(13, 14, 14);
+}
+.stats__col--highlight::before {
+    background-image: linear-gradient(rgba(10, 8, 9, 0) 0%,
+    rgb(10, 8, 9) 100%);
+}
+.stats__col--highlight .stats__count {
+    color: rgb(232, 230, 227);
+}
+.stats__col--highlight .stats__count::after {
+    background-color: rgb(107, 26, 26);
+}
+.stats__col--highlight h4 {
+    color: rgba(232, 230, 227, 0.4);
+}
+.s-contact {
+    background-color: rgb(16, 17, 18);
+    background-image: url("https://divyamagwl.github.io/images/contact-bg.jpg");
+    color: rgba(232, 230, 227, 0.5);
+}
+.s-contact .overlay {
+    background-color: rgb(5, 5, 6);
+}
+.s-contact .section-intro h1 {
+    color: rgb(232, 230, 227);
+}
+.s-contact .section-intro p {
+    color: rgba(232, 230, 227, 0.5);
+}
+.s-contact .section-intro.has-bottom-sep::after {
+    background-color: rgba(24, 26, 27, 0.1);
+}
+.s-contact .form-field label {
+    color: rgb(232, 230, 227);
+    background-image: initial;
+    background-color: rgb(107, 26, 26);
+}
+.s-contact .form-field label::after {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: rgb(164, 40, 40);
+}
+.contact__main h4 {
+    color: rgb(232, 230, 227); 
+}
+.contact__form input[type="email"], .contact__form input[type="number"], .contact__form input[type="text"], .contact__form input[type="tel"], .contact__form input[type="url"],
+.contact__form textarea {
+    background-color: transparent;
+    border-bottom-color: rgba(48, 52, 54, 0.1);
+    color: rgba(232, 230, 227, 0.75); 
+}
+.contact__form input[type="email"]:focus, .contact__form input[type="number"]:focus, .contact__form input[type="text"]:focus, .contact__form input[type="tel"]:focus, .contact__form input[type="url"]:focus,
+.contact__form textarea:focus {
+    color: rgb(232, 230, 227);
+    border-bottom-color: rgb(48, 52, 54);
+}
+.contact__form button {
+    background-color: rgb(107, 26, 26);
+    border-color: rgb(164, 40, 40);
+}
+.message-warning,
+.message-success {
+    background-image: initial;
+    background-color: rgb(10, 8, 9);
+}
+.message-warning {
+    color: rgb(255, 93, 95);
+}
+.message-success {
+    color: rgb(106, 255, 153);
+}
+.submit-loader .text-loader {
+    color: rgb(232, 230, 227);
+}
+.s-loader > div {
+    background-color: rgb(24, 26, 27);
+}
+footer {
+    color: rgba(232, 230, 227, 0.2);
+}
+footer a,
+footer a:visited {
+    color: rgb(222, 120, 120);
+}
+footer a:hover,
+footer a:focus {
+    color: rgb(232, 230, 227);
+}
+.footer-social {
+    list-style-image: initial;
+}
+.footer-social li::after {
+    color: rgba(232, 230, 227, 0.15);
+}
+.footer-social li a {
+    color: rgb(232, 230, 227);
+}
+.footer-bottom .copyright span::after {
+    color: rgba(232, 230, 227, 0.1);
+}
+.go-top a,
+.go-top a:visited {
+    text-decoration-color: initial;
+    border-color: initial;
+    background-image: initial;
+    background-color: rgb(0, 0, 0);
+    color: rgba(232, 230, 227, 0.6);
+}
+.go-top a:hover,
+.go-top a:focus {
+    color: rgb(232, 230, 227);
+}
+article.blog-single {
+    background-color: rgb(24, 26, 27);
+}
+.page-header {
+    background-color: rgb(10, 8, 9);
+    color: rgba(232, 230, 227, 0.5);
+}
+.page-header::before {
+    background-color: rgb(10, 8, 9);
+}
+.page-header::after {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.65) 100%);
+    background-color: initial;
+}
+.page-header__cat {
+    color: rgba(232, 230, 227, 0.8);
+}
+.page-header__cat a {
+    color: rgba(232, 230, 227, 0.8);
+}
+.page-header__cat a:hover,
+.page-header__cat a:focus,
+.page-header__cat a:active {
+    color: rgb(232, 230, 227);
+}
+.page-header__date {
+    color: rgba(232, 230, 227, 0.4);
+}
+.page-header__date a {
+    color: rgba(232, 230, 227, 0.4);
+}
+.page-header__date a:hover,
+.page-header__date a:focus,
+.page-header__date a:active {
+    color: rgb(232, 230, 227);
+}
+.page-header__title {
+    color: rgb(232, 230, 227);
+}
+.page-header__title a {
+    color: rgb(232, 230, 227);
+}
+.page-header__meta {
+    list-style-image: initial;
+}
+.page-header__meta::before {
+    background-color: rgba(24, 26, 27, 0.1);
+}
+.page-header__meta span,
+.page-header__meta a {
+    color: rgb(232, 230, 227);
+}
+.page-header__btn {
+    color: rgb(232, 230, 227);
+    border-color: rgb(48, 52, 54) !important;
+}
+.page-header__btn:hover,
+.page-header__btn:focus {
+    color: rgb(232, 230, 227);
+    background-image: initial !important;
+    background-color: rgb(24, 26, 27) !important;
+}
+.blog-content-wrap {
+    background-color: rgb(24, 26, 27);
+}
+.blog-content__tags span {
+    color: rgb(225, 222, 218);
+}
+.blog-content__tags span::after {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.blog-content__tags .blog-content__tag-list a {
+    color: rgb(156, 147, 134);
+    border-color: rgba(140, 130, 115, 0.3);
+}
+.blog-content__tags .blog-content__tag-list a:hover,
+.blog-content__tags .blog-content__tag-list a:focus {
+    background-color: rgb(10, 8, 9);
+    border-color: rgb(136, 126, 112);
+    color: rgb(232, 230, 227);
+}
+.blog-content__pagenav {
+    border-top-color: rgba(140, 130, 115, 0.1);
+}
+.blog-content__nav span {
+    color: rgb(156, 147, 134);
+}
+.blog-content__nav a {
+    color: rgb(225, 222, 218);
+}
+.blog-content__nav a:hover span,
+.blog-content__nav a:focus span {
+    color: rgb(225, 222, 218);
+}
+.comments-wrap {
+    background-color: rgb(32, 35, 37);
+}
+#comments ol,
+#comments ul {
+    list-style-image: initial;
+}
+.commentlist > .comment {
+    list-style-image: initial;
+}
+.comment__info cite {
+    color: rgb(225, 222, 218);
+}
+.comment__meta {
+    color: rgba(232, 230, 227, 0.7);
+}
+.hvrbox .hvrbox-layer_top {
+    background-image: initial;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(232, 230, 227);
+}
+.hvrbox .hvrbox-text_mobile {
+    border-top-color: rgba(69, 75, 78, 0.7);
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+a[href="https://coinmarketcap.com/"] > svg[width="94"][height="16"] > path {
+    fill: var(--darkreader-neutral-text) !important;
+}
+#edge-translate-panel-body {
+    color: var(--darkreader-neutral-text) !important;
+}
