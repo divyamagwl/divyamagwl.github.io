@@ -425,7 +425,6 @@
         ssSmoothScroll();
         ssPlaceholder();
         ssAlertBoxes();
-        ssContactForm();
         ssBackToTop();
 
     })();
